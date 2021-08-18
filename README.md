@@ -4,6 +4,7 @@
 - [x] Data Lab
 - [x] Bomb Lab
 - [x] Attack Lab
+- [x] Architecture Lab
 
 ## Data Lab
 | Points | Rating | Errors | Points | Ops |    Puzzle    |
@@ -72,3 +73,19 @@ To get into `<secret_phase>`, add "DrEvil" at the end in `<phase_4>`.
 | ctarget_level3 | 48 c7 c7 a8 dc 61 55 68 fa 18 40 00 c3 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 78 dc 61 55 00 00 00 00 35 39 62 39 39 37 66 61 00 |
 | rtarget_level2 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ab 19 40 00 00 00 00 00 fa 97 b9 59 00 00 00 00 a2 19 40 00 00 00 00 00 ec 17 40 00 00 00 00 00 |
 | rtarget_level3 | 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 1a 40 00 00 00 00 00 a2 19 40 00 00 00 00 00 ab 19 40 00 00 00 00 00 48 00 00 00 00 00 00 00 dd 19 40 00 00 00 00 00 70 1a 40 00 00 00 00 00 13 1a 40 00 00 00 00 00 d6 19 40 00 00 00 00 00 a2 19 40 00 00 00 00 00 fa 18 40 00 00 00 00 00 35 39 62 39 39 37 66 61 00 |
+
+## Architecture Lab
+| Part | Answer Path |
+| ---- | ----------- |
+| A | [archlab/sim/misc/answer](archlab/sim/misc/answer) |
+| B | [archlab/sim/seq/seq-full.hcl](archlab/sim/seq/seq-full.hcl) |
+| C | [archlab/sim/pipe/pipe-full.hcl](archlab/sim/pipe/pipe-full.hcl) |
+|   | [archlab/sim/pipe/ncopy.ys](archlab/sim/pipe/ncopy.ys) |
+
+Part C Score : 60.0/60.0
+
+Average CPE : 7.50
+
+**Tip :** 
+- Modify some files to adapt to tcl8.6.
+- In Part C I remove the `xorq %rax, %rax` because I really can't find anything else to optimize.
