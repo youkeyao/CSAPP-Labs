@@ -5,6 +5,7 @@
 - [x] Bomb Lab
 - [x] Attack Lab
 - [x] Architecture Lab
+- [x] Cache Lab
 
 ## Data Lab
 | Points | Rating | Errors | Points | Ops |    Puzzle    |
@@ -89,3 +90,12 @@ Average CPE : 7.50
 **Tip :** 
 - Modify some files to adapt to tcl8.6.
 - In Part C I remove the `xorq %rax, %rax` because I really can't find anything else to optimize.
+
+## Cache Lab
+| Summary | Points | Max pts | Misses |
+| ------- | ------ | ------- | ------ |
+| Csim correctness | 27.0 | 27 | |
+| Trans perf 32x32 | 8.0 | 8 | 287 |
+| Trans perf 32x32 | 8.0 | 8 | 1171 |
+| Trans perf 32x32 | 10.0 | 10 | 1992 |
+| Total Points | 53.0 | 53 | |
