@@ -7,6 +7,7 @@
 - [x] Architecture Lab
 - [x] Cache Lab
 - [x] Shell Lab
+- [x] Malloc Lab
 
 ## Data Lab
 | Points | Rating | Errors | Points | Ops |    Puzzle    |
@@ -103,3 +104,21 @@ Average CPE : 7.50
 
 ## Shell Lab
 Answer Path : [shlab/tsh.c](shlab/tsh.c)
+
+## Malloc Lab
+| trace | valid | util | ops | secs | Kops |
+| ----- | ----- | ---- | --- | ---- | ---- |
+| 0 | yes | 99% | 5694 | 0.000147 | 38787 |
+| 1 | yes | 100% | 5848 | 0.000163 | 35899 |
+| 2 | yes | 99% | 6648 | 0.000173 | 38494 |
+| 3 | yes | 100% | 5380 | 0.000153 | 35072 |
+| 4 | yes | 88% | 14400 | 0.000165 | 87114 |
+| 5 | yes | 95% | 4800 | 0.000444 | 10811 |
+| 6 | yes | 94% | 4800 | 0.000384 | 12500 |
+| 7 | yes | 55% | 12000 | 0.001808 | 6637 |
+| 8 | yes | 51% | 24000 | 0.000714 | 33623 |
+| 9 | yes | 59% | 14401 | 0.000246 | 58469 |
+| 10 | yes | 89% | 14401 | 0.000157 | 92019 |
+| Total | | 85% | 112372 | 0.004554 | 24677 |
+
+Perf index = 51 (util) + 40 (thru) = 91/100
