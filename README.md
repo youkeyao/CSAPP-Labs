@@ -8,6 +8,7 @@
 - [x] Cache Lab
 - [x] Shell Lab
 - [x] Malloc Lab
+- [x] Proxy Lab
 
 ## Data Lab
 | Points | Rating | Errors | Points | Ops |    Puzzle    |
@@ -122,3 +123,8 @@ Answer Path : [shlab/tsh.c](shlab/tsh.c)
 | Total | | 85% | 112372 | 0.004554 | 24677 |
 
 Perf index = 51 (util) + 40 (thru) = 91/100
+
+## Proxy Lab
+| basicScore | concurrencyScore | cacheScore | totalScore |
+| :--------: | :--------------: | :--------: | :--------: |
+| 40/40 | 15/15 | 15/15 | 70/70 |
